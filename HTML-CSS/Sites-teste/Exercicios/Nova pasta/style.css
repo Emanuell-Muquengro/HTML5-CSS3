@@ -1,0 +1,20 @@
+
+#Cabeçalho{
+    background-image: linear-gradient(90deg, red,blue);
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 1000;
+   
+   
+
+
+    
+}
+
+#Meno{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.621);
+}
+#Meno li{
+
+}
