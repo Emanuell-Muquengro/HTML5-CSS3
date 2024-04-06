@@ -1,12 +1,24 @@
 header{
+   
     background-color: #7f8c96;
+    border-bottom: 7px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+    
+    
 }
 
 header nav{
+   
+    margin-top: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 0px;
     
 }
 .esquerda
@@ -20,6 +32,7 @@ header nav{
 }
 .search{
     display: inline-block;
+    border: 30px;
 }
 
 img{
@@ -35,17 +48,28 @@ a{
     font-weight: 500;
     text-decoration: none;
     margin-right: 30px;
-   
+    
+    transition: all 0.3s ease;
 }
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
 #Button{
     display: inline-block;
     background-color: rgb(10, 120, 224);
-    height: 60px;
-    line-height: 60px;
-    padding-left: 20px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
     padding-right: 20px;
     box-shadow: 5px 5px 0px black;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+#Button:hover{
+    transform: scale(1.05);
 }
 input[type="submit"] {
     font-family: "Fire Code";
@@ -63,11 +87,27 @@ input[type="submit"] {
     padding-left: 20px;
     padding-right: 20px;
     box-shadow: 2px 2px 0px black;
+    transition: transform 0.3s ease;
 }
+
+input[type="submit"]:hover {
+    transform: scale(1.05);
+}
+
 input[type="search"] {
 
    
     padding: 10px 16px; 
    width: 500px;
     border-radius: 10px; 
+}
+
+a:before{
+    content: "";
+    display: inline-block;
+      background-color: rgb(10, 120, 224);
+      margin-right: 3px;
+      width: 10px;
+      height: 10px;
+      vertical-align: middle ;
 }
