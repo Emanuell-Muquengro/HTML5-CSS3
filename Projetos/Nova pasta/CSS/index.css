@@ -60,8 +60,8 @@ a:hover {
 #Button{
     display: inline-block;
     background-color: rgb(10, 120, 224);
-    height: 50px;
-    line-height: 50px;
+    height: 30px;
+    line-height: 30px;
     padding-left: 10px;
     padding-right: 20px;
     box-shadow: 5px 5px 0px black;
